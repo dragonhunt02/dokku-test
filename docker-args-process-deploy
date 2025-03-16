@@ -14,8 +14,8 @@ source "$PLUGIN_CORE_AVAILABLE_PATH/common/functions"
 PLUGIN_DIR=$(dirname $0)
 PLUGIN_EXEC_CMD="plugn trigger"
 
-dokku_log_info1 'dokku-test Running test script at docker-args-process-deploy...' 
+# dokku_log_info1 'dokku-test Running test script at docker-args-process-deploy...' 
 #1>&2
-echo ' --label mylabel=cool '
+echo ' --label mylabel=cool --label "traefik.http.routers.rubya-web-http.rule=Host(\`rubyaa.dokku.me\`)" '
 #STDIN=$(cat)
 #echo -n "$@"
