@@ -12,4 +12,4 @@ APP="$1";
 PLUGIN_DIR=$(dirname $0)
 PLUGIN_EXEC_CMD="plugn trigger"
 
-echo '@@@> dokku-test | Running test script at docker-args-process-deploy...'
+echo 'dokku-test Running test script at docker-args-process-deploy...'
