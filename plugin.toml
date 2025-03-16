@@ -1,5 +1,5 @@
 [plugin]
-name = "dokku-test"
+name = "dokku-tstest"
 version = "0.1.0 "
 description = "dokku plugin to run"
 website_url = "https://github.com/"
