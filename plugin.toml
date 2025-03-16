@@ -1,0 +1,6 @@
+[plugin]
+name = "dokku-test"
+version = "0.1.0 "
+description = "dokku plugin to run"
+website_url = "https://github.com/"
+[plugin.config]
