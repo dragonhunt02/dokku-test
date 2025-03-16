@@ -4,7 +4,9 @@ source "$PLUGIN_CORE_AVAILABLE_PATH/common/functions"
 
 # APP="$1"; IMAGE=$(get_app_image_name $APP); CACHE_DIR="$DOKKU_ROOT/$APP/cache"
 
-APP="$1"; $IMAGE_SOURCE_TYPE="$2"; IMAGE_TAG="$3"; PROC_TYPE="$4"; CONTAINER_INDEX="$5"; 
+APP="$1"; 
+# $IMAGE_SOURCE_TYPE="$2";
+# IMAGE_TAG="$3"; PROC_TYPE="$4"; CONTAINER_INDEX="$5"; 
 # IMAGE=$(get_app_image_name $APP $IMAGE_TAG)
 
 PLUGIN_DIR=$(dirname $0)
